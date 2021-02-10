@@ -43,8 +43,12 @@ export const ContainerButton = styled.div`
   justify-content: flex-end;
 
   > button {
+    cursor: pointer;
+
     margin: 10px;
     padding: 8px 56px;
+
+    color: #292929;
 
     border: 1px solid var(--color-background);
 

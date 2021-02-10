@@ -139,5 +139,6 @@ export const PigIcon = styled(FaPiggyBank)`
   ${generalIconCSS}
 
   fill: var(--color-blue-light) !important;
+  cursor: pointer;
 `;
 

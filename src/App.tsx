@@ -5,6 +5,7 @@ import { Container } from './stylesApp';
 
 import Header from './components/Header';
 import Logo from './components/Logo';
+import Content from './components/Content';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <GlobalStyles />
       <Header />
       <Logo />
+      <Content />
     </Container>
   );
 }
