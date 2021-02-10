@@ -22,8 +22,12 @@ export const Navigation = styled.nav`
   justify-content: space-between;
 
   padding: 16px;
-  margin: 0 200px;
+  margin: 0 220px;
   min-height: 61px;
+
+  @media(max-width: 800px) {
+    margin: 0;
+  }
 
   > h2 {
     display: flex;
