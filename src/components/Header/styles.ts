@@ -82,6 +82,10 @@ export const Input = styled.input`
 
   border-radius: 7px 0 0 7px;
   border: none;
+
+  @media(max-width: 1380px) {
+    width: 170px;
+  }
 `;
 
 const generalIconCSS = css`
@@ -122,6 +126,11 @@ export const SearchIcon = styled(FaSearch)`
   
   cursor: pointer;
   float: left;
+
+  @media(max-width: 1380px) {
+    margin-top: 6.4px;
+    height: 38px;
+  }
 `;
 
 export const UserIcon = styled(FaUser)`
