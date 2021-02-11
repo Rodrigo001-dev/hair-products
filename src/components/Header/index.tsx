@@ -27,7 +27,7 @@ const Header: React.FC = () => {
 
         <h2>
           <span>
-            <Input placeholder="O que você procura ?" />
+            <Input placeholder="O que procura ?" />
           </span>
           <SearchIcon />
         </h2>
